@@ -56,7 +56,8 @@ This project demonstrates multiple chatbot implementations using LangGraph, a fr
 ### Prerequisites
 
 - Python 3.8 or higher
-- OpenAI API key
+- OpenAI API key (required)
+- Alpha Vantage API key (optional, for stock price lookup feature)
 
 ### Setup Instructions
 
@@ -76,7 +77,11 @@ This project demonstrates multiple chatbot implementations using LangGraph, a fr
    Create a `.env` file in the project root:
    ```bash
    OPENAI_API_KEY=your_openai_api_key_here
+   # Optional: For stock price lookup feature
+   # ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
    ```
+   
+   Note: The current implementation includes a demo Alpha Vantage API key in the code, but you should obtain your own key from [Alpha Vantage](https://www.alphavantage.co/support/#api-key) for production use.
 
 ## 💻 Usage
 
